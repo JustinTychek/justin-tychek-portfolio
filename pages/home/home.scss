@@ -1,0 +1,24 @@
+.home {
+  height: calc(100vh - 60px);
+  background-image: linear-gradient(
+      to right,
+      rgba(68, 114, 202, 0.65),
+      rgba(68, 114, 202, 0.65)
+    ),
+    url(../images/mountains-background.jpg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    font-size: 85px;
+    color: white;
+  }
+
+  h3 {
+    font-size: 35px;
+    color: #c8f7ff;
+  }
+}

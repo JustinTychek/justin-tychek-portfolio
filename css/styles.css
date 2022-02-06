@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: SourceCodeReg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: SourceCodeReg;
+  src: url(fonts/SourceCodePro-Regular.ttf);
+}
+nav {
+  height: 60px;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #6d97e4;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+nav :hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.home {
+  height: calc(100vh - 60px);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(68, 114, 202, 0.65)), to(rgba(68, 114, 202, 0.65))), url(../images/mountains-background.jpg);
+  background-image: linear-gradient(to right, rgba(68, 114, 202, 0.65), rgba(68, 114, 202, 0.65)), url(../images/mountains-background.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.home h1 {
+  font-size: 85px;
+  color: white;
+}
+.home h3 {
+  font-size: 35px;
+  color: #c8f7ff;
+}

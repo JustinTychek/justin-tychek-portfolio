@@ -1,0 +1,18 @@
+nav {
+  height: 60px;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #6d97e4;
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+  }
+  :hover {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+  }
+}
