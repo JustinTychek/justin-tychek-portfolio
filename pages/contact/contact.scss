@@ -1,0 +1,36 @@
+.contact {
+  height: 100vh;
+  margin-top: -75px;
+  background-image: linear-gradient(to right, #5c859bbe, #5c859bbe),
+    url(../images/blue-bg.jpg);
+
+  padding: 200px 100px;
+  color: white;
+
+  h1 {
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .socials {
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+
+    .email {
+      height: 200px;
+      width: 200px;
+      background-image: url(../images/email.svg);
+    }
+
+    .linkedin {
+      height: 200px;
+      width: 200px;
+      background-image: url(../images/linkedin.svg);
+    }
+  }
+}

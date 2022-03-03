@@ -1,5 +1,7 @@
 .home {
-  height: calc(100vh - 60px);
+  // height: calc(100vh - 60px);
+  height: 100vh;
+  margin-top: -75px;
   background-image: linear-gradient(
       to right,
       rgba(68, 114, 202, 0.65),
